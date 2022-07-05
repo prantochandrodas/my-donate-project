@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto Condensed', sans-serif;
+}
+#head-section{
+    background-image: url(images/donation9.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    
+
+}
+.head-body{
+    padding-top: 130px;
+    text-align: center;
+
+}
+.head-body h1{
+    color:white;
+    font-size: 60px;
+    
+   
+}
+.head-body p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.head-body a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 23px;
+    
+}
+
+#donet{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.donet-body{
+    text-align: center;
+}
+.donet-body h1{
+    color:rgb(6, 6, 6);
+    font-size: 60px;
+ 
+}
+.donet-body p{
+    margin:30px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.donate-amount{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.donate-amount span{
+    margin:0 20px;
+    background-color: gainsboro;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.donet-body input[type=text]{
+    border:none;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+}
+input::placeholder{
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+}
+.donet-body a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(254, 73, 7);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 23px;
+}
