@@ -97,3 +97,50 @@ input::placeholder{
     border-radius: 5px;
     font-size: 23px;
 }
+#donet-plan{
+    margin-bottom: 70px;
+}
+.donet-plan-body{
+    text-align: center;
+}
+.donet-plan-body h1{
+    color:rgb(6, 6, 6);
+    font-size: 60px;
+}
+.donet-plan-body p{
+    margin:30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.donet-plan-mission{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.mission-category{
+    width: 25%;
+    margin-left: 5%;
+    padding: 15px;
+    padding-top: 50px;
+
+}
+.mission-category h1{
+    margin-top: 20px;
+}
+.mission-category p{
+   margin-top: 20px;
+   text-align: justify;
+}
+.first-mission{
+
+    background-color: rgb(196, 196, 186);
+    
+}
+.secoend-mission{
+    background-color: rgb(179, 212, 212);
+    
+}
+.third-mission{
+    background-color: rgb(236, 211, 173);
+}
