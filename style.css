@@ -184,3 +184,63 @@ input::placeholder{
     box-shadow: 10px 10px 10px black;
 
 }
+#contact{
+    margin: 5%;
+}
+.contact-body{
+    text-align: center;
+}
+.contact-body h1{
+    color:rgb(6, 6, 6);
+    font-size: 60px;
+}
+.contact-body p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.contact-form{
+    width: 40%;
+    margin-top: 30px;
+    margin-left:25%;
+    padding: 3%;
+     background-color:rgb(248, 217, 177);
+}
+.contact-form input[type=email]{
+    border:none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 300px;
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+    border-radius: 5px;
+}
+.contact-form input::placeholder{
+ 
+    color:rgb(157, 136, 136);
+    font-size: 20px;
+    padding-left: 15px;
+}
+.contact-form input[type=submit]{
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: rgb(248, 238, 225);
+}
+#footer{
+    height: 150px;
+    background-color: black;
+    text-align: center;
+}
+#footer h1{
+    color:rgb(211, 40, 40);
+    font-size: 30px;
+    padding-top: 30px;
+}
+#footer h3{
+    color: white;
+    padding-top: 20px;
+}
